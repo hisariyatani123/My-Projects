@@ -1,0 +1,12 @@
+<launch>
+    <!-- <node pkg="final_project" type="main.py" name="Main_node" output="screen" launch-prefix="xterm -e" /> -->
+    <!-- This block is to launch the points_generator node -->
+    <node pkg="final_project" type="prob.py" name="probability_generator" output="screen" launch-prefix="xterm -e" />
+
+    <node pkg="final_project" type="run_experiments.py" name="accuracy_calculator" output="screen" launch-prefix="xterm -e" />
+    
+    <node pkg="final_project" type="plots.py" name="accuracy_plotter" output="screen" launch-prefix="xterm -e" />
+    <!-- This block is to launch the rqt_graph -->
+    <node name="rqt_graph" pkg="rqt_graph" type="rqt_graph" required="true"/>
+</launch>
+
