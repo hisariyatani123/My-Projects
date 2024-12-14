@@ -8,17 +8,17 @@ The repository contains a step-by-step implementation of customer segmentation u
 
 ## Key Features
 
-#### Data Preprocessing: Handling missing values, scaling, and encoding categorical features. The dataset is cleaned and transformed for effective clustering.
+#### - Data Preprocessing: Handling missing values, scaling, and encoding categorical features. The dataset is cleaned and transformed for effective clustering.
 
-#### Exploratory Data Analysis (EDA): Understanding customer attributes and distribution through visualizations, including time-based analysis of customer behaviors.
+#### - Exploratory Data Analysis (EDA): Understanding customer attributes and distribution through visualizations, including time-based analysis of customer behaviors.
 
-#### Clustering Algorithms: Implementation of algorithms like K-Means, with evaluation using metrics such as silhouette scores.
+#### - Clustering Algorithms: Implementation of algorithms like K-Means, with evaluation using metrics such as silhouette scores.
 
-#### Dimensionality Reduction: Using PCA to simplify and visualize high-dimensional data.
+#### - Dimensionality Reduction: Using PCA to simplify and visualize high-dimensional data.
 
-#### Visualization: Insights from clustering results using 2D and 3D visualizations, along with WordCloud for intuitive representation.
+#### - Visualization: Insights from clustering results using 2D and 3D visualizations, along with WordCloud for intuitive representation.
 
-#### Actionable Insights: Interpretation of clusters for business decision-making, such as targeted marketing and resource optimization.
+#### - Actionable Insights: Interpretation of clusters for business decision-making, such as targeted marketing and resource optimization.
 
 ## Tools and Libraries Used
 
