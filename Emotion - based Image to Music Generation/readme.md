@@ -10,17 +10,17 @@ An AI system that generates music reflecting emotions perceived in paintings, us
 - Comprehensive evaluation metrics (FAD, CLAP, THD)
 - Pre-trained models and dataset available
 
-## Repository Structure \
-├── data_model/           # Dataset directory  \
-├── gen_audio/            # Generated music samples \ 
-├── models/               # Model checkpoints   \
-├── processed_data/       # Pre-processed tensors   \
-├── wandb/                # Training logs  \
-├── calc_fad.py           # FAD metric calculation \
-├── calc_kl.py            # KL divergence calculation  \
-├── gen.py                # Music generation script   \
-├── main.ipynb            # Main workflow notebook   \
-└── evaluation.ipynb      # Evaluation metrics notebook   \
+## Repository Structure <br>
+├── data_model/           # Dataset directory  <br>
+├── gen_audio/            # Generated music samples <br>
+├── models/               # Model checkpoints   <br>
+├── processed_data/       # Pre-processed tensors   <br>
+├── wandb/                # Training logs  <br>
+├── calc_fad.py           # FAD metric calculation <br>
+├── calc_kl.py            # KL divergence calculation  <br>
+├── gen.py                # Music generation script   <br>
+├── main.ipynb            # Main workflow notebook   <br>
+└── evaluation.ipynb      # Evaluation metrics notebook   <br>
 
 ## Installation
 Clone repository: git clone https://github.com/hisariyatani123/MY-Projects/music-generation.git
@@ -40,16 +40,16 @@ Clone repository: git clone https://github.com/hisariyatani123/MY-Projects/music
 	pip install librosa pandas numpy matplotlib
 
 ## Dataset & Models
-Resource	Links
 
-Dataset		link 1: https://qmulprod-my.sharepoint.com/:u:/g/personal/ec23691_qmul_ac_uk/EbNnv4y4dRtHnnjaPCQY5v0B0jFbMDy5UWxTiHt7BchAnQ \
-		link 2:	https://drive.google.com/file/d/1n-uLQskwO5eO3YyNQDZwN5kh0ynj8brI/view?
+| Resource |Links |
+|-----------|----------|
+| Dataset     | [QMUL](https://qmulprod-my.sharepoint.com/:u:/g/personal/ec23691_qmul_ac_uk/EbNnv4y4dRtHnnjaPCQY5v0B0jFbMDy5UWxTiHt7BchAnQ)	      |
+|       | [Gdrive](https://drive.google.com/file/d/1n-uLQskwO5eO3YyNQDZwN5kh0ynj8brI/view?)  |
+| Model Checkpoints   | [QMUL](https://qmulprod-my.sharepoint.com/:u:/g/personal/ec23691_qmul_ac_uk/Eb_Cig6YtZFCsoBttRcfLmwBViqmRK9GTY9ZikgRjCb5vA)|
+|  | [Gdrive](https://drive.google.com/file/d/1aEo1DzL5lI9Ih8b7EkFGTL4zpC7yqaBa/view?usp=sharing)|
+| Generated Audio	   | [QMUL](https://qmulprod-my.sharepoint.com/:u:/g/personal/ec23691_qmul_ac_uk/EdAk3Df-pwJOg-6ZOJBNlwMBjjHxnFKlFdn5Vcp5ybZnnw)|
+|  | [Gdrive](https://drive.google.com/file/d/1qZH7kiMaqvwMkWAtBYqQagV-FCwH_m-a/view?usp=sharing)|
 
-Model Checkpoints	link 1: https://qmulprod-my.sharepoint.com/:u:/g/personal/ec23691_qmul_ac_uk/Eb_Cig6YtZFCsoBttRcfLmwBViqmRK9GTY9ZikgRjCb5vA \
-			link 2: https://drive.google.com/file/d/1aEo1DzL5lI9Ih8b7EkFGTL4zpC7yqaBa/view?usp=sharing
-
-Generated Audio		link 1: https://qmulprod-my.sharepoint.com/:u:/g/personal/ec23691_qmul_ac_uk/EdAk3Df-pwJOg-6ZOJBNlwMBjjHxnFKlFdn5Vcp5ybZnnw \ 
-			link 2: https://drive.google.com/file/d/1qZH7kiMaqvwMkWAtBYqQagV-FCwH_m-a/view?usp=sharing
 
 # In main.ipynb
 %run train_mod.py --epochs 40 --batch_size 16 --lr 1e-5
